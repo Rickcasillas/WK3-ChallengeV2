@@ -2,7 +2,8 @@
 var generateBtn = document.querySelector("#generate");
 
 function generatePassword() {
-  console.log("TESTING123")
+  alert("Password Must Be Between 8 and 20 Characters")
+  confirm("Passwords may contain lowercase, uppercase, numbers, and special characters")
 
 
 return "stay tuned";
